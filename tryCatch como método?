@@ -1,0 +1,31 @@
+package canil;
+
+public class Estatistica {
+    
+    // declaro atributo desta classe
+    public String nOcorrencia;
+        
+    //DECLARO UM METODO QUE TRANSFORMA O ATRIBUTO STRING TO int...
+    public void ocorrencia(){
+        try
+        {    
+            int numero = Integer.parseInt(nOcorrencia.trim());
+              
+        }
+        catch (NumberFormatException nfe)
+        {
+            System.out.println("NumberFormatException: " + nfe.getMessage());
+        }
+        
+       
+        
+             
+        
+        
+    
+    
+    
+    }
+}
+    
+
